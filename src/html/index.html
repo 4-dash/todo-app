@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/home.css">
+        <script src="../JS/main.js" defer></script>
+        <title>TODO 📝</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1 id="head">TODO List 🔥🔥🔥</h1>
+        </header>
+        
+        <hr>
+
+        <section>
+            <form id="taskForm" onsubmit="addTask(event)">
+                <input id="taskInput" type="text" placeholder="Add a task">
+                <button id="doneButton" type="submit">Add</button>
+            </form>
+        </section>
+        
+        <section>
+            <ol id="taskList">
+            </ol>
+        </section>
+        
+        <hr>
+
+        <footer>
+            <ul>
+                <li>Contact</li>
+                <li>Legal</li>
+            </ul>    
+        </footer>
+    </body>    
+</html>

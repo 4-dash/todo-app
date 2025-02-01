@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+}
+
+button {
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+#head {
+    color:blueviolet;
+}
+
+#taskForm {
+    align-items: center;
+}
